@@ -52,7 +52,7 @@ public class CookingController {
         return cookingRepo.findByName(name);
     }
     
-    @DeleteMapping("/blogs/name/{name}/")
+    @DeleteMapping("/cookingTrainer/name/{name}/")
     public List<Cooking> deleteByName(@PathVariable String name) {
         return cookingRepo.deleteByName(name);
     }
